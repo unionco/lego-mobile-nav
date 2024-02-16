@@ -1,0 +1,40 @@
+{
+  "name": "@union/lego-mobile-nav",
+  "version": "0.1.0",
+  "description": "Infinitely nestable semantic navigation for smaller screens.",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "style": "src/mobile-nav.scss",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node build.js --watch=1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lego-js/mobile-nav.git"
+  },
+  "keywords": [],
+  "author": "Brandon Poe <brandonpoe@me.com> (http://brandonpoe.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lego-js/mobile-nav/issues"
+  },
+  "homepage": "https://github.com/lego-js/mobile-nav#readme",
+  "dependencies": {
+    "lego-data": "^1.0.8",
+    "lego-toggle": "^2.0.0"
+  },
+  "devDependencies": {
+    "chokidar": "^1.6.0",
+    "glob": "^7.0.3",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-jasmine": "^0.3.8",
+    "rollup": "^0.55.3",
+    "rollup-plugin-buble": "^0.18.0",
+    "sass": "^1.70.0",
+    "yargs": "^4.6.0"
+  }
+}
